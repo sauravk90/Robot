@@ -18,7 +18,7 @@
       <module name="robot" target="1.5" />
       <module name="Robot" target="1.5" />
       <module name="robot (1)" target="1.5" />
-      <module name="test" target="1.5" />
+      <module name="test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

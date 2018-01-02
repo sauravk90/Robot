@@ -1,4 +1,4 @@
-package main.testBase;
+package testBase;
 
 public class TestException extends RuntimeException {
 

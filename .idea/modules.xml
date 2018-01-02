@@ -4,11 +4,11 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Robot.iml" filepath="$PROJECT_DIR$/Robot.iml" />
       <module fileurl="file://$PROJECT_DIR$/framework/framework.iml" filepath="$PROJECT_DIR$/framework/framework.iml" />
-      <module fileurl="file://$PROJECT_DIR$/framework/franework.iml" filepath="$PROJECT_DIR$/framework/franework.iml" />
-      <module fileurl="file://$PROJECT_DIR$/test/robot.iml" filepath="$PROJECT_DIR$/test/robot.iml" />
-      <module fileurl="file://$PROJECT_DIR$/framework/robot (1).iml" filepath="$PROJECT_DIR$/framework/robot (1).iml" />
+      <module fileurl="file://C:\Users\Saurav.Kumar\Desktop\TestAutomation\Robot\framework\franework.iml" filepath="C:\Users\Saurav.Kumar\Desktop\TestAutomation\Robot\framework\franework.iml" />
+      <module fileurl="file://C:\Users\Saurav.Kumar\Desktop\TestAutomation\Robot\test\robot.iml" filepath="C:\Users\Saurav.Kumar\Desktop\TestAutomation\Robot\test\robot.iml" />
+      <module fileurl="file://C:\Users\Saurav.Kumar\Desktop\TestAutomation\Robot\framework\robot (1).iml" filepath="C:\Users\Saurav.Kumar\Desktop\TestAutomation\Robot\framework\robot (1).iml" />
       <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/framework/wqw.iml" filepath="$PROJECT_DIR$/framework/wqw.iml" />
+      <module fileurl="file://C:\Users\Saurav.Kumar\Desktop\TestAutomation\Robot\framework\wqw.iml" filepath="C:\Users\Saurav.Kumar\Desktop\TestAutomation\Robot\framework\wqw.iml" />
     </modules>
   </component>
 </project>
