@@ -1,4 +1,4 @@
-package utilities;
+package utility.common;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -11,9 +11,9 @@ import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-public class ExcelReader {
+public class ExcelUtil {
 
-    static File src = new File(System.getProperty("user.dir")+ "\\src\\main\\testData\\test.xlsx");
+    static File src = new File(System.getProperty("user.dir")+ "\\src\\main\\testData\\pNode.xlsx");
 
     public static String ReadExcelByColandRow(int rowNum, int colNum) throws IOException {
 

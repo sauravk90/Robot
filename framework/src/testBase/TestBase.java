@@ -1,12 +1,13 @@
 package testBase;
 
-import com.relevantcodes.extentreports.ExtentReports;
-import com.relevantcodes.extentreports.ExtentTest;
-import com.relevantcodes.extentreports.LogStatus;
-import utilities.Constants;
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
+import utility.globalConst.ConfigInput;
 import org.apache.log4j.*;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
+import utility.reportManager.ExtentManager;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -16,52 +17,56 @@ import java.util.Calendar;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
-public class TestBase extends Driver {
+import static utility.globalConst.FilePath.resourcesPath;
+
+public class TestBase extends DriverFactory {
 
     public static ExtentReports extent;
-    public static ExtentTest test;
-    public ITestResult result;
-    public Properties OR;
-    public File f1;
-    public FileInputStream file;
+    public static ExtentTest pNode;
     public static final Logger logger = Logger.getLogger(TestBase.class.getName());
 
-    static {
-        Calendar calender = Calendar.getInstance();
-        SimpleDateFormat formater = new SimpleDateFormat("dd_MM_yyyy_hh_mm_ss");
-        extent = new ExtentReports(System.getProperty("user.dir")+"/src/report/test" + formater.format(calender.getTime())+".html" , false);
-    }
-
-    @BeforeSuite
+    @BeforeSuite(alwaysRun = true)
     @Parameters({"browser"})
     public void setUp(String browser) throws TestException {
 
-        Driver.Initialize(browser);
+        // load the automation.properties file
+        ConfigInput.init();
+        extent = ExtentManager.getExtent();
+
+        DriverFactory.getDriver();
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         driver.manage().window().maximize();
-        driver.navigate().to(Constants.URL);
+        driver.get(ConfigInput.url);
         logger.info(browser + " browser initialized!");
+    }
+
+    @BeforeClass
+    public void beforeClass(){
+         pNode = extent.createTest(getClass().getSimpleName());
+         //pNode.log(Log, " pNode started");
+        loadPropertiesFile();
     }
 
     @BeforeMethod
     public void beforeMethod(Method result){
-        test = extent.startTest(result.getName());
-        test.log(LogStatus.INFO, " test started");
-        loadPropertiesFile();
+        //pNode = extent.startTest(result.getName());
+        //pNode.log(LogStatus.INFO, " pNode started");
+        //loadPropertiesFile();
     }
 
     @AfterMethod
     public void afterMethod(ITestResult result) {
         getResult(result);
+        extent.flush();
     }
 
     @AfterClass(alwaysRun = true)
     public void afterClass(){
-        extent.endTest(test);
-        extent.flush();
+        //extent.endTest(pNode);
+        //extent.flush();
     }
 
-    @AfterSuite
+    @AfterSuite(alwaysRun = true)
     public void tearDown(){
         driver.quit();
         logger.info("Test Execution was completed.");
@@ -69,22 +74,23 @@ public class TestBase extends Driver {
 
     public void getResult(ITestResult result){
         if (result.getStatus() == ITestResult.SUCCESS) {
-            test.log(LogStatus.PASS, result.getName(), "Test is passed!");
+            pNode.log(Status.PASS, result.getName());
         }
             else if(result.getStatus() == ITestResult.SKIP){
-                test.log(LogStatus.SKIP, result.getName(), "Test is skipped with reason " + result.getThrowable());
+                pNode.log(Status.SKIP, "Test is skipped with reason " + result.getThrowable());
             }
         else if(result.getStatus() == ITestResult.FAILURE){
-            test.log(LogStatus.FAIL, result.getName(), "Test failed! " + result.getThrowable());
+            pNode.log(Status.FAIL, result.getThrowable());
             // Screenshot code to be added here
         }
         else if(result.getStatus() == ITestResult.STARTED){
-            test.log(LogStatus.INFO, result.getName(), "Test is started");
+             pNode.log(Status.INFO, result.getName());
         }
+        System.out.print("\nEND TEST: " + result.getName());
     }
 
     public void loadPropertiesFile(){
-        String log4jConfPath = System.getProperty("user.dir") + "/../framework/src/config/log4j.properties";
+        String log4jConfPath = resourcesPath + "\\log4j.properties";
         PropertyConfigurator.configure(log4jConfPath);
         logger.info("log4j configurations successfully loaded..");
 
