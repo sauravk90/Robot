@@ -29,7 +29,7 @@ public class DriverFactory {
         if(driver == null){
             driver = createDriver();
             driver.manage().timeouts().implicitlyWait(4, TimeUnit.SECONDS);
-            driver.manage().window().fullscreen();
+            driver.manage().window().maximize();
         }
 
         return driver;

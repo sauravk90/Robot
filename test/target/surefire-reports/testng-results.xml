@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="8438" started-at="2018-01-06T08:08:31Z" finished-at="2018-01-06T08:08:39Z">
+  <suite name="Suite" duration-ms="7949" started-at="2018-01-10T15:05:30Z" finished-at="2018-01-10T15:05:38Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="8438" started-at="2018-01-06T08:08:31Z" finished-at="2018-01-06T08:08:39Z">
+    <test name="Test" duration-ms="7949" started-at="2018-01-10T15:05:30Z" finished-at="2018-01-10T15:05:38Z">
       <class name="PaytmSearch">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:PaytmSearch@7c0e2abd]" name="setUp" is-config="true" duration-ms="16795" started-at="2018-01-06T13:38:14Z" finished-at="2018-01-06T13:38:31Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:PaytmSearch@7c0e2abd]" name="setUp" is-config="true" duration-ms="9225" started-at="2018-01-10T20:35:20Z" finished-at="2018-01-10T20:35:30Z">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:PaytmSearch@7c0e2abd]" name="beforeClass" is-config="true" duration-ms="1935" started-at="2018-01-06T13:38:31Z" finished-at="2018-01-06T13:38:33Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:PaytmSearch@7c0e2abd]" name="beforeClass" is-config="true" duration-ms="88" started-at="2018-01-10T20:35:30Z" finished-at="2018-01-10T20:35:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:PaytmSearch@7c0e2abd]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-06T13:38:33Z" finished-at="2018-01-06T13:38:33Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:PaytmSearch@7c0e2abd]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-10T20:35:30Z" finished-at="2018-01-10T20:35:30Z">
           <params>
             <param index="0">
               <value>
@@ -33,11 +33,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="search()[pri:0, instance:PaytmSearch@7c0e2abd]" name="search" duration-ms="1992" started-at="2018-01-06T13:38:33Z" finished-at="2018-01-06T13:38:35Z">
+        <test-method status="PASS" signature="search()[pri:0, instance:PaytmSearch@7c0e2abd]" name="search" duration-ms="7221" started-at="2018-01-10T20:35:30Z" finished-at="2018-01-10T20:35:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- search -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:PaytmSearch@7c0e2abd]" name="afterMethod" is-config="true" duration-ms="4490" started-at="2018-01-06T13:38:35Z" finished-at="2018-01-06T13:38:39Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:PaytmSearch@7c0e2abd]" name="afterMethod" is-config="true" duration-ms="612" started-at="2018-01-10T20:35:37Z" finished-at="2018-01-10T20:35:38Z">
           <params>
             <param index="0">
               <value>
@@ -48,11 +48,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:PaytmSearch@7c0e2abd]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-01-06T13:38:39Z" finished-at="2018-01-06T13:38:39Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:PaytmSearch@7c0e2abd]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-01-10T20:35:38Z" finished-at="2018-01-10T20:35:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:PaytmSearch@7c0e2abd]" name="tearDown" is-config="true" duration-ms="747" started-at="2018-01-06T13:38:39Z" finished-at="2018-01-06T13:38:40Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:PaytmSearch@7c0e2abd]" name="tearDown" is-config="true" duration-ms="1136" started-at="2018-01-10T20:35:38Z" finished-at="2018-01-10T20:35:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

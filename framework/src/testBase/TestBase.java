@@ -34,8 +34,6 @@ public class TestBase extends DriverFactory {
         extent = ExtentManager.getExtent();
 
         DriverFactory.getDriver();
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-        driver.manage().window().maximize();
         driver.get(ConfigInput.url);
         logger.info(browser + " browser initialized!");
     }

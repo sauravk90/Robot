@@ -11,11 +11,11 @@ public class PaytmHomepage extends PageInit {
     private WebDriver driver;
 
 
-    @FindBy(xpath = "//*[@id=\"app\"]/div/div[2]/div[2]/div[2]/input")
-    public WebElement searchBox;
+    @FindBy(xpath = "//a[contains(text(),\"Today's Deals\")]")
+    public WebElement dealsText;
 
-    public PaytmHomepage inputSearch(String text, String eleName){
-        setText(searchBox, text, eleName);
+    public PaytmHomepage goToDealsPage(String text, String eleName){
+        clickOnElement(dealsText,eleName );
         return this;
     }
 

@@ -2,53 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6a4bf13-15fe-44ea-a5aa-8434805e664c" name="Default" comment="Updated poms">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aventstack_extentreports_3_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_9_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_3_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_3_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/framework/src/pageObjects/PageInit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/framework/src/resources/automation.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/framework/src/utility/globalConst/ConfigInput.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/framework/src/utility/globalConst/Constants.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/framework/src/utility/globalConst/FilePath.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/framework/src/utility/globalVars/GlobalData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/framework/src/utility/propertiesManager/AutProperties.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/framework/src/utility/propertiesManager/ExtentProperties.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/framework/src/utility/reportManager/ExtentManager.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_relevantcodes_extentreports_2_40_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_8_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_sqlite_jdbc_3_8_11_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/src/testBase/Driver.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/src/utilities/Constants.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/target/classes/testBase/Driver$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/target/classes/testBase/Driver$DriverType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/target/classes/testBase/Driver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/target/classes/utilities/Constants.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/target/classes/utilities/ExcelReader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/target/surefire-reports/Suite/testng-failed.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/target/surefire-reports/testng-failed.xml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/framework/src/config/log4j.properties" afterPath="$PROJECT_DIR$/framework/src/resources/log4j.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/framework/src/utilities/ExcelReader.java" afterPath="$PROJECT_DIR$/framework/src/utility/common/ExcelUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/target/classes/pageObjects/PaytmHomepage.class" afterPath="$PROJECT_DIR$/framework/target/classes/pageObjects/PaytmHomepage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/target/classes/testBase/TestBase.class" afterPath="$PROJECT_DIR$/framework/target/classes/testBase/TestBase.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/target/framework-1.0.jar" afterPath="$PROJECT_DIR$/framework/target/framework-1.0.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/classes/PaytmSearch.class" afterPath="$PROJECT_DIR$/test/target/classes/PaytmSearch.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/test-1.0.jar" afterPath="$PROJECT_DIR$/test/target/test-1.0.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/framework.iml" afterPath="$PROJECT_DIR$/framework/framework.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/pom.xml" afterPath="$PROJECT_DIR$/framework/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/src/pageObjects/PaytmHomepage.java" afterPath="$PROJECT_DIR$/framework/src/pageObjects/PaytmHomepage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/src/resources/automation.properties" afterPath="$PROJECT_DIR$/framework/src/resources/automation.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/src/testBase/DriverFactory.java" afterPath="$PROJECT_DIR$/framework/src/testBase/DriverFactory.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/src/testBase/TestBase.java" afterPath="$PROJECT_DIR$/framework/src/testBase/TestBase.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/framework/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/framework/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/framework/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/src/logs/automation.log" afterPath="$PROJECT_DIR$/test/src/logs/automation.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/src/report/test02_01_2018_08_04_49.html" afterPath="$PROJECT_DIR$/test/src/report/test02_01_2018_08_04_49.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/src/report/test02_01_2018_08_49_45.html" afterPath="$PROJECT_DIR$/test/src/report/test02_01_2018_08_49_45.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/src/report/test03_01_2018_09_29_14.html" afterPath="$PROJECT_DIR$/test/src/report/test03_01_2018_09_29_14.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/src/report/test05_01_2018_10_18_53.html" afterPath="$PROJECT_DIR$/test/src/report/test05_01_2018_10_18_53.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/src/report/extentreport.html" afterPath="$PROJECT_DIR$/test/src/report/extentreport.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/src/testScripts/PaytmSearch.java" afterPath="$PROJECT_DIR$/test/src/testScripts/PaytmSearch.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/test/target/maven-archiver/pom.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/surefire-reports/Suite/Test.html" afterPath="$PROJECT_DIR$/test/target/surefire-reports/Suite/Test.html" />
@@ -58,13 +22,11 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/surefire-reports/emailable-report.html" afterPath="$PROJECT_DIR$/test/target/surefire-reports/emailable-report.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/surefire-reports/index.html" afterPath="$PROJECT_DIR$/test/target/surefire-reports/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/surefire-reports/junitreports/TEST-PaytmSearch.xml" afterPath="$PROJECT_DIR$/test/target/surefire-reports/junitreports/TEST-PaytmSearch.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/surefire-reports/old/Suite/classes.html" afterPath="$PROJECT_DIR$/test/target/surefire-reports/old/Suite/classes.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/surefire-reports/old/Suite/methods-alphabetical.html" afterPath="$PROJECT_DIR$/test/target/surefire-reports/old/Suite/methods-alphabetical.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/surefire-reports/old/Suite/methods.html" afterPath="$PROJECT_DIR$/test/target/surefire-reports/old/Suite/methods.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/surefire-reports/old/Suite/toc.html" afterPath="$PROJECT_DIR$/test/target/surefire-reports/old/Suite/toc.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/surefire-reports/old/index.html" afterPath="$PROJECT_DIR$/test/target/surefire-reports/old/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/target/surefire-reports/testng-results.xml" afterPath="$PROJECT_DIR$/test/target/surefire-reports/testng-results.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test.iml" afterPath="$PROJECT_DIR$/test/test.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -81,38 +43,46 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PaytmSearch.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/src/testScripts/PaytmSearch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="PaytmHomepage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/framework/src/pageObjects/PaytmHomepage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="68">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
-                <element signature="e#631#632#0" expanded="true" />
-                <element signature="e#656#657#0" expanded="true" />
-                <element signature="e#713#714#0" expanded="true" />
-                <element signature="e#759#760#0" expanded="true" />
+                <element signature="e#626#627#0" expanded="true" />
+                <element signature="e#651#652#0" expanded="true" />
+                <element signature="e#708#709#0" expanded="true" />
+                <element signature="e#754#755#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PageInit.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/framework/src/pageObjects/PageInit.java">
+      <file leaf-file-name="PaytmSearch.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/src/testScripts/PaytmSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DriverFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/framework/src/testBase/DriverFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="31" column="48" lean-forward="false" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/framework/src/testBase/TestBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="36" column="36" lean-forward="false" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -166,13 +136,13 @@
         <option value="$PROJECT_DIR$/framework/src/utility/propertiesManager/AutProperties.java" />
         <option value="$PROJECT_DIR$/framework/pom.xml" />
         <option value="$PROJECT_DIR$/framework/src/pageObjects/PageInit.java" />
-        <option value="$PROJECT_DIR$/framework/src/resources/automation.properties" />
-        <option value="$PROJECT_DIR$/framework/src/testBase/DriverFactory.java" />
-        <option value="$PROJECT_DIR$/framework/src/pageObjects/PaytmHomepage.java" />
         <option value="$PROJECT_DIR$/framework/src/utility/globalConst/FilePath.java" />
         <option value="$PROJECT_DIR$/framework/src/utility/reportManager/ExtentManager.java" />
+        <option value="$PROJECT_DIR$/framework/src/resources/automation.properties" />
         <option value="$PROJECT_DIR$/test/src/testScripts/PaytmSearch.java" />
+        <option value="$PROJECT_DIR$/framework/src/testBase/DriverFactory.java" />
         <option value="$PROJECT_DIR$/framework/src/testBase/TestBase.java" />
+        <option value="$PROJECT_DIR$/framework/src/pageObjects/PaytmHomepage.java" />
       </list>
     </option>
   </component>
@@ -221,6 +191,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -264,6 +237,28 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testScripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Robot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Robot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -279,11 +274,92 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Robot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Robot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Robot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Robot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testBase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Robot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Robot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Robot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Robot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pageObjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -595,15 +671,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__Users_Saurav_Kumar_Desktop_TestAutomation_Robot_test_testng_xml - 2018.01.06 at 09h 01m 31s.xml">
-      <configuration name="C:/Users/Saurav.Kumar/Desktop/TestAutomation/Robot/test/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Saurav_Kumar_Desktop_TestAutomation_Robot_test_testng_xml - 2018.01.06 at 09h 18m 31s.xml">
-      <configuration name="C:/Users/Saurav.Kumar/Desktop/TestAutomation/Robot/test/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Saurav_Kumar_Desktop_TestAutomation_Robot_test_testng_xml - 2018.01.06 at 09h 19m 47s.xml">
-      <configuration name="C:/Users/Saurav.Kumar/Desktop/TestAutomation/Robot/test/testng.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="C__Users_Saurav_Kumar_Desktop_TestAutomation_Robot_test_testng_xml - 2018.01.06 at 09h 21m 19s.xml">
       <configuration name="C:/Users/Saurav.Kumar/Desktop/TestAutomation/Robot/test/testng.xml" configurationId="TestNG" />
     </history-entry>
@@ -625,9 +692,18 @@
     <history-entry file="C__Users_Saurav_Kumar_Desktop_TestAutomation_Robot_test_testng_xml - 2018.01.06 at 10h 25m 55s.xml">
       <configuration name="C:/Users/Saurav.Kumar/Desktop/TestAutomation/Robot/test/testng.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="C__Users_Saurav_Kumar_Desktop_TestAutomation_Robot_test_testng_xml - 2018.01.10 at 20h 15m 45s.xml">
+      <configuration name="C:/Users/Saurav.Kumar/Desktop/TestAutomation/Robot/test/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Saurav_Kumar_Desktop_TestAutomation_Robot_test_testng_xml - 2018.01.10 at 20h 31m 42s.xml">
+      <configuration name="C:/Users/Saurav.Kumar/Desktop/TestAutomation/Robot/test/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Saurav_Kumar_Desktop_TestAutomation_Robot_test_testng_xml - 2018.01.10 at 20h 33m 27s.xml">
+      <configuration name="C:/Users/Saurav.Kumar/Desktop/TestAutomation/Robot/test/testng.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -638,15 +714,14 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14372164" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14145234" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32820514" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32820514" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25869894" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34358975" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2647504" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -660,6 +735,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34358975" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -768,7 +844,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="27" column="32" lean-forward="true" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -776,7 +851,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -784,7 +858,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -792,7 +865,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="118">
           <caret line="138" column="11" lean-forward="false" selection-start-line="138" selection-start-column="11" selection-end-line="138" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -800,7 +872,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
           <caret line="995" column="0" lean-forward="false" selection-start-line="995" selection-start-column="0" selection-end-line="995" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -808,9 +879,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
           <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
-          <folding>
-            <element signature="e#2607#2608#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -818,7 +886,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
           <caret line="366" column="0" lean-forward="false" selection-start-line="366" selection-start-column="0" selection-end-line="366" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -826,7 +893,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="453" column="0" lean-forward="false" selection-start-line="453" selection-start-column="0" selection-end-line="453" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -834,7 +900,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -842,9 +907,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -852,7 +914,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -868,25 +929,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="121">
           <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework/src/resources/automation.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework/src/testBase/DriverFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -894,7 +936,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -902,7 +943,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -910,7 +950,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -918,9 +957,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="21" column="37" lean-forward="false" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -928,7 +964,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -936,7 +971,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -944,7 +978,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -952,24 +985,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="40" lean-forward="true" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/src/resources/automation.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/src/pageObjects/PageInit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="46" column="19" lean-forward="false" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/src/testBase/DriverFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="31" column="48" lean-forward="false" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/framework/src/testBase/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="101" column="0" lean-forward="true" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework/src/pageObjects/PageInit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="236">
+          <caret line="36" column="36" lean-forward="false" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -978,24 +1024,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/framework/src/pageObjects/PaytmHomepage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="68">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <element signature="e#631#632#0" expanded="true" />
-            <element signature="e#656#657#0" expanded="true" />
-            <element signature="e#713#714#0" expanded="true" />
-            <element signature="e#759#760#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+            <element signature="e#651#652#0" expanded="true" />
+            <element signature="e#708#709#0" expanded="true" />
+            <element signature="e#754#755#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/src/testScripts/PaytmSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>

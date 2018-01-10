@@ -8,12 +8,12 @@ public class PaytmSearch extends TestBase {
     @Test
     public void search(){
         // Create a pNode instance
-        pNode = extent.createTest("QAVsite", "Verify HomePage");
+        pNode = extent.createTest("QAV site", "Verify HomePage");
 
         PaytmHomepage.init(pNode)
-                .inputSearch("Python books", "Search Box");
+                .goToDealsPage("Clicking on Deals","Deals Button");
 
-        pNode.pass(driver.getTitle() +" contain "+"QA manual");
+        pNode.pass(driver.getTitle() +" contain "+"Amazon");
 
     }
 }
